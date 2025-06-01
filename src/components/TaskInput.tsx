@@ -32,7 +32,7 @@ const TaskInput: React.FC<TaskInputProps> = ({ onAddTask }) => {
     setError('');
     return true;
   };
-
+// function handling functionality
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     
